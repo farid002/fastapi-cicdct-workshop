@@ -52,8 +52,8 @@ Workshop əsasən backend inkişafı, test avtomatlaşdırması və DevOps (xüs
 
 - **GitHub Actions ilə CI:**  
   Hər dəfə `main` branch-a push və ya pull request zamanı:
-  - Asılılıqlar quraşdırılır.
+  - Requirement'lər quraşdırılır.
   - Testlər işə düşür və coverage ölçülür.
-  - Coverage hesabatı artefakt kimi yüklənə bilir.
+  - Coverage hesabatı artefakt kimi endirilə bilir.
 
 ---
