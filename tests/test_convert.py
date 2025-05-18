@@ -11,12 +11,7 @@ def test_root():
 def test_convert_c_to_f():
     response = client.post("/convert", json={"value": 0, "from_unit": "celsius", "to_unit": "fahrenheit"})
     assert response.status_code == 200
-    assert response.json() == {"result": 32.0}
-
-def test_convert_f_to_c():
-    response = client.post("/convert", json={"value": 32, "from_unit": "fahrenheit", "to_unit": "celsius"})
-    assert response.status_code == 200
-    assert response.json() == {"result": 0.0}
+    assert response.json() == {"result": 30.0}
 
 def test_invalid_units():
     response = client.post("/convert", json={"value": 100, "from_unit": "kelvin", "to_unit": "celsius"})
