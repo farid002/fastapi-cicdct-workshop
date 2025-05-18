@@ -14,7 +14,7 @@ uvicorn main:app --reload
 ```
 
 # Main goal of the Workshop (in Azerbaijani)
-# FastAPI Workshop: Sadə Konvertasiya API-si və Testlər ilə CI
+### FastAPI Workshop: Sadə Konvertasiya API-si və Testlər ilə CI
 
 Bu praktik workshop-da biz **FastAPI** ilə sadə Python veb API yaradacaq, avtomatlaşdırılmış testlər yazacaq və **GitHub Actions** ilə Davamlı İnteqrasiya (CI) quracağıq.
 
